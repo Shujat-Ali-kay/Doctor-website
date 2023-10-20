@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PAKDOC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/medical icons/pak.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><i class="fa fa-user-md"></i>Pakdoc</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="#services" class="nav-item nav-link">Doctor</a>
+                    <a href="#about" class="nav-item nav-link">Hospitals</a>
+                    <a href="#portfolio" class="nav-item nav-link">Emergency</a>
+                    <a href="#blog" class="nav-item nav-link">Lab Tests</a>
+                </div>
+                <div class="nav-item dropdown">
+                  <a href="#" class="nav-link" data-bs-toggle="dropdown"><img src="img/medical icons/profile.png" class="new"></a>
+                  <div class="dropdown-menu m-0">
+                      <a href="login.php" class="dropdown-item">Login</a>
+                  </div>
+              </div>
+                <a href="#" class="btn btn-primary py-2 px-4 ms-3">Multan<i class="fa fa-map-marker" style="font-size:20px;color:red"></i></a>
+            </div>
+        </nav>
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Find best Doctors in Multan</h1>
+                            <a href="book.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Doctor Appointment</a>
+                            <a href="video.html" class="btn btn-danger py-md-3 px-md-5 animated slideInRight">Doctor Video Consultation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Find best Hospitals in Multan</h1>
+                            <a href="book.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Doctor Appointment</a>
+                            <a href="video.html" class="btn btn-danger py-md-3 px-md-5 animated slideInRight">Doctor Video Consultation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-3.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Find best Medical laboratories in Multan</h1>
+                            <a href="book.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Doctor Appointment</a>
+                            <a href="video.html" class="btn btn-danger py-md-3 px-md-5 animated slideInRight">Doctor Video Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-stethoscope"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Doctors</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">6000</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-h-square sq"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Hospitals</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">330</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <img src="img/laboratory.png" style="width: 20px;">
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">laboratories</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">200</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div id="portfolio" class="our-portfolio section">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Emergency</h5>
+                        <h1 class="mb-0">Doctor online Consultation</h1>
+                    </div>
+                    <p class="mb-4">See a doctor. Our doctors are always accepting consultations from new patients. Talk to a doctor online in minutes 24/7, or book an appointment with a specialist, no referral needed.</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Doctors</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id019').style.display='block'">Video Consulation</button>
+                    <div id="id019" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id019').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/about.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                  <P style="text-align: center;"> CONSULT ONLINE </p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Random" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                
+                                    <select name="date">
+                                      <option value="EMERGENCY">EMERGENCY</option>
+                                    </select>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                  </div>
+                                </form>
+                              </div>
+                           </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div id="about" class="about-us section">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Multan</h5>
+                <h1 class="mb-0">Best Hospitals</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                             <a href=""> <img src="img/medical icons/Hospital-1.png" style="width: 60px;">
+                            </div>
+                            <h4>City Hospital</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 6510367</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-2.png" style="width: 60px;">
+                            </div>
+                            <h4>Bakhtawar Amin</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 6741205</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-5.png" style="width: 60px;">
+                            </div>
+                            <h4>Medicare Hospital</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 4581702</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-6.png" style="width: 60px;">
+                            </div>
+                            <h4>DHQ Hospital</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 9200943</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/doctor-showing-laptop.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-3.png" style="width: 60px;">
+                            </div>
+                            <h4>Nishtar Hospital</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 9330153</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-4.png" style="width: 60px;">
+                            </div>
+                            <h4>Afzal Medicare</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 6536966</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-7.png" style="width: 60px;">
+                            </div>
+                            <h4>Mukhtar A. Sheikh</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 4554800</a>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; margin-left: 50px;">
+                                <a href=""> <img src="img/medical icons/Hospital-8.png" style="width: 60px;">
+                            </div>
+                            <h4>Children Complex</h4></a>
+                            <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 9201431</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">DISEASES</h5>
+                <h1 class="mb-0">Find doctors by health</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                           <a href=""> <img src="img/medical icons/human-trachea.png" style="width: 50px;">
+                        </div>
+                        <h4 class="mb-3">ENT Specialist</h4></a>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/child.png" style="width: 50px;">
+                        </div>
+                        <h4 class="mb-3">Child Specialist</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/eye.png" style="width: 50px;">
+                            </div>
+                        <h4 class="mb-3">Eye Specialist</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/skincare.png" style="width: 45px;">
+                            </div>
+                        <h4 class="mb-3">Skin Specialist</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/pregnancy.png" style="width: 50px;">
+                            </div>
+                        <h4 class="mb-3">Gynecologist</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/orthopedics.png" style="width: 45px;">
+                            </div>
+                        <h4 class="mb-3">Orthopedic Surgeon</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/examination.png" style="width: 45px;">
+                            </div>
+                        <h4 class="mb-3">Diagnostics</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <a href=""> <img src="img/medical icons/analysis.png" style="width: 50px;">
+                            </div>
+                        <h4 class="mb-3">Diabetes specialist</h4>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                  <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                      <div class="service-icon">
+                          <a href=""> <img src="img/medical icons/doctor-neurologist-icon.webp" style="width: 50px;">
+                          </div>
+                      <h4 class="mb-3">Neurologist</h4>
+                      <a class="btn btn-lg btn-primary rounded" href="">
+                          <i class="bi bi-arrow-right"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="service-icon">
+                        <a href=""> <img src="img/medical icons/cardiologist.png" style="width: 50px;">
+                        </div>
+                    <h4 class="mb-3">cardiologist</h4>
+                    <a class="btn btn-lg btn-primary rounded" href="">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Testimonial Start -->
+    <div id="blog" class="our-blog section">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Multan</h5>
+                <h1 class="mb-0">Medical Laboratories</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/medical icons/lab-1.png" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Excel Labs</h4>
+                            <small class="text-uppercase">Address</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Shop No. 13 , D-Block, Wapda Town Phase-1, Nothern Bypass, Bosan Rd, opposite Model Town, C Block Shalimar Colony, Multan, Punjab
+                    </div>
+                    <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 9201431</a>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/medical icons/lab-2.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Chughtai Lab</h4>
+                            <small class="text-uppercase">Address</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Shop No. 13 , D-Block, Wapda Town Phase-1, Nothern Bypass, Bosan Rd, opposite Model Town, C Block Shalimar Colony, Multan, Punjab
+                    </div>
+                    <a href="#" class="btn btn-primary py-2 px-4 ms-3">0346 6157412</a>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/medical icons/lab-3.png" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Nayab Labs & Diagnostic</h4>
+                            <small class="text-uppercase">Address</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                       Nishtar Rd, near Raza Laboratory, Justice Hamid Colony Multan, Punjab 60000                    
+                    </div>
+                    <a href="#" class="btn btn-primary py-2 px-4 ms-3">0322 5514104</a>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/medical icons/lab-4.png" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Agha Khan</h4>
+                            <small class="text-uppercase">Address</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        5FGR+93R, Mumtazabad Market Rd, Mumtazabad Colony, Multan, Punjab 60600                    
+                    </div>
+                    <a href="#" class="btn btn-primary py-2 px-4 ms-3">(061) 6244747</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Team Start -->
+                          <!--------------------- Doc1 -------------------->
+   <div id="services" class="our-services section">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Doctors</h5>
+                <h1 class="mb-0">Best Doctors in Multan City</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-1.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Muhammad Asif</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Urologist, General Physician, Sexologist, Andrologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS, MD(USA), FCPS (Urology)</p>
+                            <h3>Experience</h3>
+                            <p>13 year(s)</p>
+                            <p>Doctor Fees Rs.1500</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id01').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id02').style.display='block'">Video Consulation</button>
+
+                            <div id="id01" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-1.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> House # 82, Street # 4, Oppt. Main Mosque, Zakriya Town <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Muhammad Asif" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id02" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-1.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> House # 82, Street # 4, Oppt. Main Mosque, Zakriya Town <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Muhammad Asif" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc2 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-2.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Shazia Habib</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Audiologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">BS Audiology, MS Audiology</p>
+                            <h3>Experience</h3>
+                            <p>2 year(s)</p>
+                            <p>Doctor Fees Rs.1000</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id03').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id04').style.display='block'">Video Consulation</button>
+
+                            <div id="id03" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-2.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Rao Abdul Rehman, Khan Medical City, plaza Nishtar Rd, Al Rahim Colony, khanewal, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Shazia Habib" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id04" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-2.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Rao Abdul Rehman, Khan Medical City, plaza Nishtar Rd, Al Rahim Colony, khanewal, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Shazia Habib" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+                                    
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc3 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-3.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Abdul Rehman</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Audiologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">BSC (Hons) Audiology</p>
+                            <h3>Experience</h3>
+                            <p>5 year(s)</p>
+                            <p>Doctor Fees Rs.500</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id05').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id06').style.display='block'">Video Consulation</button>
+
+                            <div id="id05" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-3.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Shahid Latif St, C Block Block C, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Abdul Rehman" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id06" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-3.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Shahid Latif St, C Block Block C, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Abdul Rehman" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc4 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-4.jfif" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Ferwa Nasir</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Cancer Specialist / Oncologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS, FCPS</p>
+                            <h3>Experience</h3>
+                            <p>11 year(s)</p>
+                            <p>Doctor Fees Rs.1500</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id07').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id08').style.display='block'">Video Consulation</button>
+
+                            <div id="id07" class="modal">
+                              <form class="modal-content animate" action="onli.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-4.jfif" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Medicare Hospital, Abdali Rd, Altaf Town, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Ferwa Nasir" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id08" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-4.jfif" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Medicare Hospital, Abdali Rd, Altaf Town, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Ferwa Nasir" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc5 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-5.png" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Hamayun Ikram</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Allergy Specialist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">| MBBS | FCPS | MPHIL | PHD in Asthma & Allergy ( Immunology) |</p>
+                            <h3>Experience</h3>
+                            <p>17 year(s)</p>
+                            <p>Doctor Fees Rs.2000</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id09').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id010').style.display='block'">Video Consulation</button>
+
+                            <div id="id09" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id09').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-5.png" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Al-Shifa Hospital: New Multan Colony, Multan. <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Hamayun Ikram" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id010" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id010').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-5.png" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Al-Shifa Hospital: New Multan Colony, Multan. <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Hamayun Ikram" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc6 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-6.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Rana Atique</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Cancer Specialist / Oncologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS, FCPS (Clinical Oncology)</p>
+                            <h3>Experience</h3>
+                            <p>8 year(s)</p>
+                            <p>Doctor Fees Rs.2000</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id011').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id012').style.display='block'">Video Consulation</button>
+
+                            <div id="id011" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id011').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-6.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Opposite wavelaz eye center near Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Rana Atique" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id012" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id012').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-6.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Opposite wavelaz eye center near Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Rana Atique" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc7 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-7.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Muhammad Hamid</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Cardiac Surgeon</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS</p>
+                            <h3>Experience</h3>
+                            <p>6 year(s)</p>
+                            <p>Doctor Fees Rs.1500</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id013').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id014').style.display='block'">Video Consulation</button>
+
+                            <div id="id013" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id013').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-7.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Nishtar road Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Muhammad Hamid" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id014" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id014').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-7.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Nishtar road Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Muhammad Hamid" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc8 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-8.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Abdullah</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Cardiologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS , Diploma In Cardiology</p>
+                            <h3>Experience</h3>
+                            <p>6 year(s)</p>
+                            <p>Doctor Fees Rs.700</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id015').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id016').style.display='block'">Video Consulation</button>
+
+                            <div id="id015" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id015').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-8.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Nishtar road Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Abdullah" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id016" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id016').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-8.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Nishtar road Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Abdullah" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                      <!--------------------- Doc8 -------------------->
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-50" src="img/doc-9.jpg" alt="">
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Dr. Arooma Rasheed</h4>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">Cancer Specialist / Oncologist</p>
+                            <p class="text-uppercase m-0" style="font-size: 12px;">MBBS, MS (Oncology)</p>
+                            <h3>Experience</h3>
+                            <p>5 year(s)</p>
+                            <p>Doctor Fees Rs.1500</p>
+                            <button class="btn btn-primary py-2 px-4 ms-3" onclick="document.getElementById('id017').style.display='block'">Book Appointment</button>
+                            <button class="btn btn-danger py-2 px-4 ms-3" onclick="document.getElementById('id018').style.display='block'">Video Consulation</button>
+
+                            <div id="id017" class="modal">
+                              <form class="modal-content animate" action="appoi.php" method="post">
+                                <div class="imgcontainer">
+                                  <span onclick="document.getElementById('id017').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                  <img src="img/doc-9.jpg" alt="Avatar" class="avatar">
+                                </div>
+                               <p> Chugtai Medical centre, Khan Medical City, Nishtar Rd, Al Rahim Colony, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+
+                                <div class="container">
+
+                                  <input type="hidden" name="doc" value="Dr. Arooma Rasheed" id="">
+
+                                  <input type="text" placeholder="patient" name="patient" required>
+                            
+                                  <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                              
+                                  <select name="date">
+                                    <option value="#">Date</option>
+                                    <option value="01-11-2022">01-11-2022</option>
+                                    <option value="02-11-2022">02-11-2022</option>
+                                    <option value="03-11-2022">03-11-2022</option>
+                                    <option value="04-11-2022">04-11-2022</option>
+                                    <option value="05-11-2022">05-11-2022</option>
+                                    <option value="06-11-2022">06-11-2022</option>
+                                    <option value="07-11-2022">07-11-2022</option>
+                                    <option value="08-11-2022">08-11-2022</option>
+                                    <option value="09-11-2022">09-11-2022</option>
+                                    <option value="10-11-2022">10-11-2022</option>
+                                    <option value="11-11-2022">11-11-2022</option>
+                                    <option value="12-11-2022">12-11-2022</option>
+                                    <option value="13-11-2022">13-11-2022</option>
+                                    <option value="14-11-2022">14-11-2022</option>
+                                    <option value="15-11-2022">15-11-2022</option>
+                                    <option value="16-11-2022">16-11-2022</option>
+                                    <option value="17-11-2022">17-11-2022</option>
+                                    <option value="18-11-2022">18-11-2022</option>
+                                    <option value="19-11-2022">19-11-2022</option>
+                                    <option value="20-11-2022">20-11-2022</option>
+                                    <option value="21-11-2022">21-11-2022</option>
+                                    <option value="22-11-2022">22-11-2022</option>
+                                    <option value="23-11-2022">23-11-2022</option>
+                                    <option value="24-11-2022">24-11-2022</option>
+                                    <option value="25-11-2022">25-11-2022</option>
+                                    <option value="26-11-2022">26-11-2022</option>
+                                    <option value="27-11-2022">27-11-2022</option>
+                                    <option value="28-11-2022">28-11-2022</option>
+                                    <option value="29-11-2022">29-11-2022</option>
+                                    <option value="30-11-2022">30-11-2022</option>
+                                  </select>
+                                                                
+                                  <select name="time">
+                                    <option value="#">Time</option>
+                                    <option value="4:30">4:30</option>
+                                    <option value="5:30">5:30</option>
+                                    <option value="6:30">6:30</option>
+                                  </select>
+                                    
+                                  <button type="submit" class="btn btn-primary py-2 px-4 ms-3">Book Appointment</button>
+                                  <p style="color: red;">You will receive  appointment message in 24 hours</p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div id="id018" class="modal">
+                                <form class="modal-content animate" action="onli.php" method="post">
+                                  <div class="imgcontainer">
+                                    <span onclick="document.getElementById('id018').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                    <img src="img/doc-9.jpg" alt="Avatar" class="avatar">
+                                  </div>
+                                 <p> Chugtai Medical centre, Khan Medical City, Nishtar Rd, Al Rahim Colony, Multan <i class="fa fa-map-marker" style="font-size:20px;color:red"></i></p>
+  
+                                  <div class="container">
+
+                                    <input type="hidden" name="doc" value="Dr. Arooma Rasheed" id="">
+
+                                    <input type="text" placeholder="patient" name="patient" required>
+                              
+                                    <input type="text" placeholder="03xx-xxxxxxx" name="phone" required>
+                                
+                                    <select name="date">
+                                      <option value="#">Date</option>
+                                      <option value="01-11-2022">01-11-2022</option>
+                                      <option value="02-11-2022">02-11-2022</option>
+                                      <option value="03-11-2022">03-11-2022</option>
+                                      <option value="04-11-2022">04-11-2022</option>
+                                      <option value="05-11-2022">05-11-2022</option>
+                                      <option value="06-11-2022">06-11-2022</option>
+                                      <option value="07-11-2022">07-11-2022</option>
+                                      <option value="08-11-2022">08-11-2022</option>
+                                      <option value="09-11-2022">09-11-2022</option>
+                                      <option value="10-11-2022">10-11-2022</option>
+                                      <option value="11-11-2022">11-11-2022</option>
+                                      <option value="12-11-2022">12-11-2022</option>
+                                      <option value="13-11-2022">13-11-2022</option>
+                                      <option value="14-11-2022">14-11-2022</option>
+                                      <option value="15-11-2022">15-11-2022</option>
+                                      <option value="16-11-2022">16-11-2022</option>
+                                      <option value="17-11-2022">17-11-2022</option>
+                                      <option value="18-11-2022">18-11-2022</option>
+                                      <option value="19-11-2022">19-11-2022</option>
+                                      <option value="20-11-2022">20-11-2022</option>
+                                      <option value="21-11-2022">21-11-2022</option>
+                                      <option value="22-11-2022">22-11-2022</option>
+                                      <option value="23-11-2022">23-11-2022</option>
+                                      <option value="24-11-2022">24-11-2022</option>
+                                      <option value="25-11-2022">25-11-2022</option>
+                                      <option value="26-11-2022">26-11-2022</option>
+                                      <option value="27-11-2022">27-11-2022</option>
+                                      <option value="28-11-2022">28-11-2022</option>
+                                      <option value="29-11-2022">29-11-2022</option>
+                                      <option value="30-11-2022">30-11-2022</option>
+                                    </select>
+
+                                    <input type="text" placeholder="patient cinic" name="cinic" required>
+                                      
+                                    <button type="submit" class="btn btn-danger py-2 px-4 ms-3">Video Consulation</button>
+                                    <p style="color: red;">You will receive video Consulation message in 24 hours</p>
+                                  </div>
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa-user-md"></i>Pakdoc</h1>
+                        </a>
+                        <p class="mt-3 mb-4">Pakistans most trusted platform to find doctors, book appointment, or consult online with the top specialist doctors across Pakistan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">Nishtar road Multan, Punjab, PAKISTAN</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">pakdoc@gmail.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+92331 32114561</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#"></a>All Rights Reserved by Pakdoc 
+						
+						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
